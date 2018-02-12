@@ -3,9 +3,8 @@
 <property name="result.dir" location="./target"/>
 <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
  <path id="NecessaryLibraries">
-<pathelement location="./JUnit 4/junit.jar"/>
-<!--matcher- >
-<pathelement location="./JUnit 4/hamcrest.core_1.3.0.v201303031735.jar"/>-->
+<pathelement location="C:\Users\UPDATE\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar"/>
+<pathelement location="C:\Users\UPDATE\Downloads\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar"/>
 </path>
 <target name="compile">
 <mkdir dir="${result.javaclasses.dir}"/>
